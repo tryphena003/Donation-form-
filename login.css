@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+html {
+  background-color: #F7F1E5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#solgan {
+  color: #ffffff;
+  background-color: rgba(34, 89, 19, 1);
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  height: 2.5rem;
+  text-align: center;
+}
+
+.mainpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* welcome text  */
+
+.heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 95.5vh;
+  width: 50vw;
+}
+
+#logoimg {
+  width: 20rem;
+  padding: 15px;
+  padding-bottom: 5px;
+  margin: 70px;
+  margin-bottom: 55px;
+
+}
+
+.welcome {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 9rem;
+  font-weight: bold;
+  letter-spacing: 20px;
+  margin-bottom: 1rem;
+}
+
+#bepart {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 0.5rem;
+  word-spacing: 3.8rem;
+}
+
+.anand {
+  font-size: 4.79rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  margin-top: 2rem;
+  color: rgba(34, 89, 19, 1);
+}
+
+/* welcome text  ends*/
+
+.container {
+  height: 95.5vh;
+  width: 46vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-text {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: 0.2rem;
+  font-size: 4rem;
+  color: rgba(34, 89, 19, 1);
+  margin-bottom: 2rem;
+  margin-top: 10rem;
+}
+#loginForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-text{
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 10px 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 3rem;
+  border: 1px solid #ddd;
+}
+
+.form-group button {
+  width:100%;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #555;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin-top: 1.2rem;
+}
+
+.form-group button:hover {
+  background-color: rgba(34, 89, 19, 1);
+}

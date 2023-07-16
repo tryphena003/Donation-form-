@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <body>
+        <div id="solgan">
+          <p class="solgan">Restoring Joy (आनंद) to relationship between Forests (वन) and Humans since 2013</p>
+        </div>
+
+        <!-- main page start -->
+
+        <div class="mainpage">
+          <!-- left text and image starts-->
+          <div class="heading">
+            <img id="logoimg" src="AV-logo.png" alt="logo">
+            <h1 class="welcome">
+              WELCOME
+            </h1>
+            <p id="bepart">
+              Be A Part Of The
+            </p>
+            <h1 class="welcome anand">ANANDVAN FOUNDATION</h1>
+
+        </div>
+        <!-- left text and image ends-->
+
+        <div class="container">
+            <h2 class="login-text">Login</h2>
+            <form id="loginForm">
+              <div class="form-group">
+                <label for="username" class="form-text">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-text">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+              </div>
+              <div class="form-group">
+                <button type="submit">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- main page ends -->
+
+
+          <script>
+            document.getElementById("loginForm").addEventListener("submit", function(event) {
+              event.preventDefault(); // Prevent form submission
+        
+              // Get the entered username and password
+              var username = document.getElementById("username").value;
+              var password = document.getElementById("password").value;
+        
+              // Perform your login validation here
+              // Example: Check if the username and password match
+              if (username === "admin" && password === "password") {
+                alert("Login successful!");
+                // Redirect to another page
+                window.location.href = "./formrec.html";
+              } else {
+                alert("Invalid username or password. Please try again.");
+              }
+            });
+          </script>
+    </body>
+</html>
